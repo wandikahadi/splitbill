@@ -13,7 +13,7 @@ export default function FormSplitBill() {
             <option value="user">Kamu</option>
             <option value="friend">X</option>
         </select>
-        <button className="button">Tambah Teman</button>  
+        <button className="button">Tambah</button>  
     </form>
   )
 }

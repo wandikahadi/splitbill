@@ -5,7 +5,7 @@ export default function FormAddFriend() {
         <input type="text"/>
         <label htmlFor="">📸Gambar</label>
         <input type="text"/>
-        <button className="button">Tambah Teman</button>  
+        <button className="button">Tambah</button>  
     </form>
   )
 }
