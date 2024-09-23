@@ -1,7 +1,7 @@
-export default function FormSplitBill() {
+export default function FormSplitBill({selectedFriend}) {
   return (
     <form action="" className="form-add-friend">
-        <h2>Patungan Bareng si X</h2>
+        <h2>Patungan Bareng si {selectedFriend.name}</h2>
         <label htmlFor="">💵Total Tagihan</label>
         <input type="text" name="" id=""/>
         <label htmlFor="">🙋‍♂️Tagihan Kamu</label>
